@@ -1,0 +1,80 @@
+.navbar {
+    background-color: #DA70D6;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#cabecalho .nav .nav-link.active {
+    background-color:#fff ;
+    color: #DA70D6;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-categorias .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color:#DDA0DD ;
+}
+
+.carousel-item img{
+    height: 500px;
+}
+
+.text-color-pink,
+.text-color span {
+    color: #DA70D6;
+}
+
+#sobre-ebac-eventos {
+    background-color:#FFE4E1;
+}
+
+#destaque {
+    background-color:#E0FFFF;
+}
+
+#destaque a img{
+    height: 300px;
+}
+
+.nav-categorias .nav-link.active,
+#contato button {
+    background-color: #DA70D6;
+    color: #fff;
+}
+
+.nav-categorias .nav-link:hover{
+    color: #DA70D6;
+}
+
+#categorias {
+    background-color:#FFF5EE;
+}
+
+#categorias img {
+    height: 200px;
+}
+
+.social-link a{
+    text-decoration:none;
+}
+
+.social-link li {
+    list-style: none;
+    display: inline;
+}
+
+#contato textarea {
+    resize: none;
+}
+
+@media (max-width:767px){
+    .carousel-item img {
+        height: 320px;
+    }
+
+}
